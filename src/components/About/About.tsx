@@ -1,5 +1,4 @@
 import "./About.scss";
-import Logo from "../../assets/Logo";
 
 const About = () => {
   return (
