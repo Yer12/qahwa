@@ -1,0 +1,19 @@
+
+.pricing {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  .container {
+  }
+  &-list {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-between;
+    &_item {
+      width: calc(100% / 3 - 10px);
+      height: 450px;
+      border-radius: 30px;
+      background-color: rgba(232, 232, 232, 0.59);
+    }
+  }
+}

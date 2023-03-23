@@ -1,0 +1,21 @@
+
+.info {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  background-color: #f2f5f7;
+  &-list {
+    margin-top: 50px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    &_item {
+      width: 260px;
+      margin-right: 15px;
+      height: 200px;
+      background-color: rgba(211, 211, 211, 0.35);
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+  }
+}
