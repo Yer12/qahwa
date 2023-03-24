@@ -19,6 +19,13 @@
     height: 500px;
     padding-left: 50px;
 
+    @media screen and (max-width: 600px){
+      width: 100%;
+      padding-left: 0;
+      flex-direction: column;
+      height: 600px;
+    }
+
     &_phone {
       width: 310px;
       height: 590px;
@@ -26,6 +33,12 @@
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
+
+      @media screen and (max-width: 600px) {
+        width: 140px;
+        height: 400px;
+        margin-top: -80px;
+      }
     }
 
     &_text {
@@ -55,6 +68,10 @@
         font-size: 20px;
         text-align: center;
         margin-bottom: 30px;
+
+        @media screen and (max-width: 600px){
+          width: 100%;
+        }
       }
       &-btn {
         font-size: 24px;
@@ -67,7 +84,14 @@
         cursor: pointer;
 
       }
+
+      @media screen and (max-width: 600px){
+        margin-left: 0;
+      }
     }
   }
 
+  @media screen and (max-width: 600px){
+    padding-bottom: 0;
+  }
 }

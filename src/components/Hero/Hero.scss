@@ -7,16 +7,32 @@
   background-repeat: no-repeat;
   background-position: right bottom;
 
+  @media screen and (max-width: 600px){
+    height: 855px;
+    background-size: 600px;
+    background-position: left bottom;
+  }
+
   &-title {
     font-size: 60px;
-    font-weight: 900;
+    //font-weight: 900;
     letter-spacing: 5px;
     margin: 0;
+    font-weight: bold;
+
+    @media screen and (max-width: 600px){
+      font-size: 40px;
+    }
   }
   &-subtitle {
     width: 450px;
     font-size: 24px;
     text-align: center;
+
+    @media screen and (max-width: 600px){
+      width: 100%;
+      font-size: 18px;
+    }
   }
   &-btn {
     font-size: 24px;

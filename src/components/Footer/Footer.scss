@@ -12,6 +12,10 @@
       flex-direction: column;
       align-items: center;
 
+      @media screen and (max-width: 600px){
+        width: 100%;
+      }
+
       &-input {
         width: calc(100% - 1em);
         padding: 0.5em;
@@ -52,6 +56,11 @@
     border-top: 1px solid rgba(0,0,0,.1);
 
     &_row {
+
+      @media screen and (max-width: 600px){
+        width: 50%;
+      }
+
       &-title {
         font-weight: 700;
         color: rgba(0,15,36,.46);
@@ -71,5 +80,9 @@
   &-list {
     display: flex;
     justify-content: space-between;
+
+    @media screen and (max-width: 600px){
+      flex-wrap: wrap;
+    }
   }
 }
