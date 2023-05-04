@@ -2,12 +2,10 @@ import "./About.scss";
 
 const About = () => {
   return (
-    <div className="about">
-      <h1 className="title">✴️ About</h1>
+    <div className="about" id="about">
+      <h1 className="title">✴️ О нас</h1>
       <p className="subtitle">
-        Whatever it is you want to accomplish in life,
-        Things can help you get there. Install the app
-        today and see what you can do!
+        Наша миссия - дать возможность насладиться вкусным кофе в любое время и в любом месте, даже если у вас нет времени на посещение кофейни. В нашем приложении вы найдете широкий выбор напитков, а также возможность настроить свой заказ по своим предпочтениям. Мы предлагаем не только классический эспрессо и латте, но и множество других напитков, которые удовлетворят любой вкус.
       </p>
       <div className="container">
         <div className="about-content">
@@ -16,13 +14,14 @@ const About = () => {
 
           <div className="about-content_text">
             <div className="about-content_text-title">
-              <h1 className="about-content_text-title_text">About App</h1>
+              <h1 className="about-content_text-title_text">О приложении</h1>
             </div>
             <p className="about-content_text-subtitle">
-              Things makes it easy. Within the hour, you’ll have everything off your mind and neatly organized – from routine tasks to your biggest life goals – and you can start focusing on what matters today.
+              Мы гордимся тем, что предлагаем нашим клиентам самый быстрый и удобный способ заказа кофе. С Qahwa app вы можете наслаждаться вкусным кофе в любое время и в любом месте, без лишних усилий. Присоединяйтесь к нам и наслаждайтесь кофе в новом формате!
+
             </p>
-            <div className="about-content_text-btn">
-              Download App
+            <div className="about-content_text-btn btn">
+              Скачать приложение
             </div>
           </div>
         </div>

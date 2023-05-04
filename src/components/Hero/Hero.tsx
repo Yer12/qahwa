@@ -14,10 +14,10 @@ const Hero = () => {
             Qahwa App
           </h1>
           <p className="hero-subtitle">
-            Things is the award-winning personal task manager that helps you plan your day, manage your projects, and make real progress toward your goals.
+            Qahwa app - это мобильное приложение, которое позволяет заказывать кофе в любое время и из любого места, где бы вы ни находились. Мы стремимся сделать процесс заказа кофе максимально удобным, быстрым и простым для всех наших пользователей.
           </p>
-          <div className="hero-btn">
-            Download App
+          <div className="hero-btn btn">
+            Скачать приложение
           </div>
         </div>
       </div>

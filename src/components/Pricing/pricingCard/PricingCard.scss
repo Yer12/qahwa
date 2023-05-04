@@ -1,0 +1,88 @@
+.pricing-card {
+  width: 100%;
+  &_top {
+    width: 100px;
+    height: 50px;
+    background-color: #F5C451;
+    border-radius: 50px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  &_body {
+    width: calc(100% - 60px);
+    height: calc(100% - 10px);
+    background-image: url("../../../../public/images/pricingBg.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px 30px 30px;
+    margin-top: -25px;
+
+    &-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      &-left {
+        display: flex;
+        align-items: center;
+
+        &_icon {
+          margin-right: 15px;
+        }
+
+        &_info {
+          &-title {
+            font-weight: bold;
+            font-size: 24px;
+          }
+          &-subtitle {
+            font-size: 18px;
+            color: #7d7e7e;
+
+            span {
+              font-weight: bold;
+              color: black;
+            }
+          }
+        }
+      }
+    }
+    &-divider {
+      height: 1px;
+      background-color: rgba(206, 206, 206, 0.34);
+    }
+    &-services {
+      &_list {
+        display: flex;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        &.not-available {
+          p {
+            color: #B9B9B9;
+            text-decoration: line-through;
+          }
+        }
+        &-icon {
+          margin-right: 20px;
+        }
+      }
+    }
+
+    &-btn {
+      width: 100%;
+      height: 60px;
+      border-radius: 50px;
+      background-color: #ecebeb;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      font-weight: bolder;
+      cursor: pointer;
+    }
+  }
+}

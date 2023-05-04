@@ -5,11 +5,9 @@ const Footer = () => {
     <div className="footer">
       <div className="container">
         <div className="footer-content">
-          <h1 className="title">📩 Things Newsletter</h1>
+          <h1 className="title">📩 Остались вопросы?</h1>
           <p className="subtitle">
-            Whatever it is you want to accomplish in life,
-            Things can help you get there. Install the app
-            today and see what you can do!
+            Пишите нам в мессенджеры, мы поможем
           </p>
           <div className="footer-content_form">
             <input type="text" placeholder="me@examle.com" className="footer-content_form-input"/>

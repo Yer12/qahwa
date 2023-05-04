@@ -3,8 +3,8 @@ import './App.scss';
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
 import Pricing from "./components/Pricing/Pricing";
-import Info from "./components/Info/Info";
-import Review from "./components/Review/Review";
+// import Info from "./components/Info/Info";
+// import Review from "./components/Review/Review";
 import Footer from "./components/Footer/Footer";
 
 function App() {
@@ -13,8 +13,8 @@ function App() {
       <Hero />
       <About />
       <Pricing />
-      <Info />
-      <Review />
+      {/*<Info />*/}
+      {/*<Review />*/}
       <Footer />
     </div>
   );

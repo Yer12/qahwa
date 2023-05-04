@@ -1,0 +1,13 @@
+const NotAvailable = () => {
+  return (
+    <div className="not-available">
+      <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="12.5845" cy="12.396" r="10.8882" stroke="#C4C4C4" stroke-width="2"/>
+        <path d="M9.125 8.6709L16.0439 16.1216M16.0439 8.6709L9.125 16.1216" stroke="#C4C4C4" stroke-width="2"/>
+      </svg>
+
+    </div>
+  )
+}
+
+export default NotAvailable;

@@ -6,7 +6,6 @@
   }
   &-list {
     display: flex;
-    align-items: center;
     margin-top: 50px;
     justify-content: space-between;
 
@@ -15,14 +14,10 @@
     }
 
     &_item {
-      width: calc(100% / 3 - 10px);
-      height: 450px;
-      border-radius: 30px;
-      background-color: rgba(232, 232, 232, 0.59);
-
+      width: 560px;
       @media screen and (max-width: 600px){
         width: 100%;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
       }
     }
   }
